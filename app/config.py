@@ -6,6 +6,8 @@ load_dotenv()
 
 # Werte aus der .env-Datei abrufen
 API_KEY = os.getenv("API_KEY")
+API_URL = os.getenv("API_URL")
+API_SECRET = os.getenv("API_SECRET")
 CAMERA_ID = os.getenv("CAMERA_ID")
 SAVE_DIRECTORY = os.getenv("SAVE_DIRECTORY")
 
